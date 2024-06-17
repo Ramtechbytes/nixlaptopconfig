@@ -120,7 +120,6 @@
   kdePackages.plasma-firewall
   obs-studio
   python3  
-  davinci-resolve
   neofetch
   vscodium
   github-desktop

@@ -123,7 +123,7 @@
   neofetch
   vscodium
   github-desktop
-  neovim-qt-unwrapped  
+  youtube-tui  
 
 
   #experiments

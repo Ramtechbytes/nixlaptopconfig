@@ -105,6 +105,7 @@
   
   #misc tools
   kde-gruvbox
+  keepassxc
   vim
   git
   gh

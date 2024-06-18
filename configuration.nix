@@ -125,7 +125,10 @@
   github-desktop
   youtube-tui  
   davinci-resolve
-  
+  neovim
+  lite
+  cosmic-edit
+  docker_26  
   #experiments
 
   #port scanners

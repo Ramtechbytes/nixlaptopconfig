@@ -116,7 +116,6 @@
   vimb
   brave
   powershell
-  neovim
   virtualboxKvm
   kdePackages.plasma-firewall
   obs-studio
@@ -126,9 +125,8 @@
   github-desktop
   youtube-tui  
   davinci-resolve
-
-  #experiments
   
+  #experiments
 
   #port scanners
   arp-scan

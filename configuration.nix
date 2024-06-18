@@ -125,7 +125,7 @@
   vscodium
   github-desktop
   youtube-tui  
-
+  davinci-resolve-studio
 
   #experiments
   

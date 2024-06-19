@@ -124,12 +124,14 @@
   vscodium
   github-desktop
   youtube-tui  
-  davinci-resolve
   neovim
   lite
   cosmic-edit
   docker_26  
   tailscale
+  remmina
+  vlc
+
   #experiments
 
   #port scanners
@@ -190,7 +192,6 @@
     enum4linux-ng
     erosmb
     evil-winrm
-    go365
     gomapenum
     kerbrute
     knowsmore

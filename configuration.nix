@@ -129,6 +129,7 @@
   lite
   cosmic-edit
   docker_26  
+  tailscale
   #experiments
 
   #port scanners

@@ -131,6 +131,12 @@
   tailscale
   remmina
   vlc
+  tldr
+  msmtp
+
+
+  #python
+  python312Packages.pip
 
   #experiments
 

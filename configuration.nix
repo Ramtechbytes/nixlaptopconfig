@@ -133,6 +133,9 @@
   vlc
   tldr
   msmtp
+  notesnook
+  notes
+  blueman
 
 
   #python

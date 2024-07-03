@@ -136,6 +136,7 @@
   notesnook
   notes
   blueman
+  putty
 
 
   #python

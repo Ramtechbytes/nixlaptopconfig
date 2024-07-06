@@ -137,6 +137,9 @@
   notes
   blueman
   putty
+  blender
+  libsForQt5.kdenlive
+  audacity
 
 
   #python

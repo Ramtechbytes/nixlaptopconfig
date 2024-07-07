@@ -141,7 +141,8 @@
   libsForQt5.kdenlive
   audacity
   powershell
-
+  godot_4
+  godot3
 
   #python
   python312Packages.pip

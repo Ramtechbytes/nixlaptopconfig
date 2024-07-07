@@ -140,6 +140,7 @@
   blender
   libsForQt5.kdenlive
   audacity
+  powershell
 
 
   #python

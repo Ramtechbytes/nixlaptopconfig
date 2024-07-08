@@ -143,6 +143,7 @@
   powershell
   godot_4
   godot3
+  libgcc
 
   #python
   python312Packages.pip

@@ -144,7 +144,10 @@
   godot_4
   godot3
   libgcc
-
+  zed-editor
+  aseprite
+  libresprite
+  
   #python
   python312Packages.pip
 

@@ -145,8 +145,9 @@
   godot3
   libgcc
   zed-editor
-  aseprite
   libresprite
+  raylib
+  wxGTK32
   
   #python
   python312Packages.pip

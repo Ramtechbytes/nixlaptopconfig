@@ -148,7 +148,6 @@
   libresprite
   raylib
   wxGTK32
-  
   #python
   python312Packages.pip
 

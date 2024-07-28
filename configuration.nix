@@ -48,8 +48,6 @@
   services.xserver.enable = true;
 
   # Enable the Budgie Desktop environment.
-#  services.xserver.displayManager.lightdm.enable = true;
-#  services.xserver.desktopManager.budgie.enable = true;
 
   services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.plasma6.enable = true;
@@ -61,6 +59,10 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
+
+  #Bluetooth
+  hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
 
   # Enable sound with pipewire.
   hardware.pulseaudio.enable = false;
@@ -77,6 +79,7 @@
     # no need to redefine it in your config for now)
     #media-session.enable = true;
   };
+  services.blueman.enable = true;
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
@@ -148,137 +151,9 @@
   libresprite
   raylib
   wxGTK32
-  #python
+  sfml
   python312Packages.pip
-
-  #experiments
-
-  #port scanners
-  arp-scan
-  das
-  ipscan
-  masscan
-  naabu
-  nmap
-  rustscan
-  zmap
-
-  #networking
-    arping
-    arpoison
-    atftp
-    bandwhich
-    bngblaster
-    crackmapexec
-    evillimiter
-    iperf2
-    iputils
-    lftp
-    mitm6
-    mtr
-    ncftp
-    netcat-gnu
-    netdiscover
-    netexec
-    nload
-    nuttcp
-    pingu
-    putty
-    pwnat
-    responder
-    route-graph
-    rustcat
-    sshping
-    sslh
-    tunnelgraf
-    wbox
-    whois
-    yersinia 
-
-
-  #windows
-    adidnsdump
-    adreaper
-    autobloody
-    bloodhound-py
-    chainsaw
-    certi
-    certipy
-    certsync
-    coercer
-    donpapi
-    enum4linux
-    enum4linux-ng
-    erosmb
-    evil-winrm
-    gomapenum
-    kerbrute
-    knowsmore
-    lil-pwny
-    nbtscan
-    nbtscanner
-    offensive-azure
-    pre2k
-
-
-   #web
-    apachetomcatscanner
-    arjun
-    brakeman
-    cansina
-    cariddi
-    chopchop
-    clairvoyance
-    commix
-    crackql
-    crlfsuite
-    dalfox
-    dismap
-    dirstalk
-    dontgo403
-    forbidden
-    galer
-    gau
-    gospider
-    gotestwaf
-    gowitness
-    graphqlmap
-    graphw00f
-    hakrawler
-    hey
-    httpx
-    jaeles
-    jsubfinder
-    jwt-hack
-    katana
-    kiterunner
-    mantra
-    mitmproxy2swagger
-    monsoon
-    nikto
-    nomore403
-    ntlmrecon
-    offat
-    photon
-    plecost
-    scraper
-    slowlorust
-    snallygaster
-    subjs
-    swaggerhole
-    uddup
-    wad
-    webanalyze
-    websecprobe
-    whatweb
-    wprecon
-    wpscan
-    wsrepl
-    wuzz
-    xcrawl3r
-    xnlinkfinder
-    xsubfind3r   
- 
+  steam
 ];
 
   # Some programs need SUID wrappers, can be configured further or are
